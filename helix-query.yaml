@@ -16,6 +16,10 @@ indices:
       description:
         select: head > meta[name="description"]
         value: attribute(el, "content")
+      robots:
+        select: head > meta[name="robots"]
+        value: attribute(el, "content")
+
   website-en:
     include:
       - /en/**
@@ -32,4 +36,7 @@ indices:
         value: attribute(el, "content")
       description:
         select: head > meta[name="description"]
+        value: attribute(el, "content")
+      robots:
+        select: head > meta[name="robots"]
         value: attribute(el, "content")
