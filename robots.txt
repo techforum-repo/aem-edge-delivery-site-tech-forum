@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /internal/
+
+Sitemap: https://www.techforum.com/sitemap.xml

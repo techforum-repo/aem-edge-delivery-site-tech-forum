@@ -1,0 +1,16 @@
+sitemaps:
+  pages:
+    default: en
+    origin: https://wwww.test.com
+    lastmod: YYYY-MM-DD
+    languages:
+      en:
+        source: /en/query-index.json
+        destination: /en/sitemap.xml        
+        hreflang: en
+        alternate: /en/{path}
+      es:
+        source: /es/query-index.json
+        destination: /es/sitemap.xml
+        hreflang: es
+        alternate: /es/{path}

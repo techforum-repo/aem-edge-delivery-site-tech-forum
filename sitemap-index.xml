@@ -1,0 +1,8 @@
+<sitemapindex xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+    <sitemap>
+        <loc>https://www.test.com/en/sitemap.xml</loc>
+    </sitemap>
+    <sitemap>
+        <loc>https://www.test.com/es/sitemap.xml</loc>
+    </sitemap>
+</sitemapindex>
